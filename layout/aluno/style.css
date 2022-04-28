@@ -181,7 +181,6 @@ a.article:hover {
     top: 0%;
     left: 20em;
     margin-top: 7em;
-  
 }
 
 .section{
@@ -194,6 +193,34 @@ select{
     width: calc(100% - 20px);
     height: 30px;
 }
+/* ---------------------------------------------------
+    PROVA   
+----------------------------------------------------- */
+.usuario{
+    width: 100%;
+}
+.usuario h4{
+    margin: auto;
+}
+.prova{
+    border: 3px solid black;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.card-provas{
+    background-color: #ffffff;
+    height: 300px;
+    width: 600px;
+    margin-left: 40px;
+}
+.card-prova-presenca p{
+    margin-right: 10px;
+}
+.card-prova-data{
+    margin-left: 10px;
+}
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
