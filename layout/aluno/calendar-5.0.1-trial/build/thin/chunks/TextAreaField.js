@@ -1,0 +1,10 @@
+/*!
+ *
+ * Bryntum Calendar 5.0.1 (TRIAL VERSION)
+ *
+ * Copyright(c) 2022 Bryntum AB
+ * https://bryntum.com/contact
+ * https://bryntum.com/license
+ *
+ */
+function q(A,y){return c(y-0x341,A);}(function(A,y){function f(A,y){return c(A-0xdb,y);}const w=A();while(!![]){try{const B=-parseInt(f(0x1ef,0x1e0))/0x1+-parseInt(f(0x1e4,0x1dc))/0x2+parseInt(f(0x1e2,0x1d4))/0x3+parseInt(f(0x1dc,0x1d8))/0x4*(-parseInt(f(0x1dd,0x1d7))/0x5)+-parseInt(f(0x1ea,0x1dc))/0x6*(-parseInt(f(0x1f1,0x1fe))/0x7)+-parseInt(f(0x1f2,0x1f4))/0x8*(parseInt(f(0x1f4,0x1fc))/0x9)+parseInt(f(0x1f5,0x1f3))/0xa*(parseInt(f(0x1ec,0x1f4))/0xb);if(B===y)break;else w['push'](w['shift']());}catch(l){w['push'](w['shift']());}}}(U,0xb0823));import{Field,VersionHelper}from'./Editor.js';function c(A,y){const w=U();return c=function(B,l){B=B-0xff;let f=w[B];return f;},c(A,y);}class TextAreaField extends Field{static get[q(0x44a,0x444)](){return'TextAreaField';}static get[q(0x442,0x44d)](){function M(A,y){return q(y,A- -0x12c);}return M(0x323,0x319);}static get['alias'](){return'textarea';}static get[q(0x450,0x44b)](){function E(A,y){return q(y,A- -0x225);}return{'resize':E(0x22e,0x22e),'inputAttributes':{'tag':E(0x21c,0x225)}};}[q(0x454,0x451)](A){function p(A,y){return q(y,A-0x72);}typeof A[p(0x4b7,0x4b3)]==='boolean'&&VersionHelper[p(0x4ce,0x4c3)](p(0x4be,0x4bb),p(0x4b2,0x4b3),'TextAreaField.inline\x20config\x20is\x20deprecated\x20and\x20will\x20be\x20removed'),super[p(0x4c3,0x4d0)](A);}get[q(0x45c,0x459)](){function I(A,y){return q(A,y- -0x2f);}const A=super[I(0x41f,0x42a)];return A[I(0x409,0x417)]=(A['style']||'')+(I(0x42b,0x425)+this[I(0x42a,0x41f)]),A;}}TextAreaField[q(0x43d,0x449)](),TextAreaField[q(0x452,0x447)]=q(0x44b,0x456);function U(){const P=['type','resize','textareafield','3763614sAnKPW','startConfigure','15871636XonyWT','none',';resize:','744035RgOGIs','TextAreaField','7KIfPbD','8JyiMRB','inputElement','8403354sSvdyn','10hmBBBp','deprecate','6.0.0','textarea','2936DSkSja','130KgUhgU','$name','inline','style','_$name','3639702dXCKAM','initClass','1727150vFDqot','configurable','Core'];U=function(){return P;};return U();}export{TextAreaField};

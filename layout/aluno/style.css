@@ -210,7 +210,7 @@ select{
 
 .card-provas{
     background-color: #ffffff;
-    height: 300px;
+    min-height: 300px;
     width: 600px;
     margin-left: 40px;
 }
@@ -220,7 +220,23 @@ select{
 .card-prova-data{
     margin-left: 10px;
 }
+/* ---------------------------------------------------
+    eventos   
+----------------------------------------------------- */
 
+.aventos-img img{
+    max-width:250px;
+    height: 100%;
+}
+
+/* ---------------------------------------------------
+    curso   
+----------------------------------------------------- */
+.card-curso{
+    margin: auto;
+    margin-top: 10px;
+    height: 20rem;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -232,8 +248,11 @@ select{
         max-width: 80px;
         text-align: center;
         margin-left: -80px !important;
+       z-index: 999;
     }
+    
     .dropdown-toggle::after {
+        z-index: 999;
         top: auto;
         bottom: 10px;
         right: 50%;
@@ -273,4 +292,31 @@ select{
     #sidebarCollapse span {
         display: none;
     }
+
+    .section-content{
+        width: 100%;
+        top: 0%;
+        left: 0;
+        margin-top: 7em;
+    }
+    .section{
+        width: 90%;
+        margin: auto;
+    }
+
+    .provas, .prova{
+        margin-top: 10px;
+    }
+    .card-provas{
+        background-color: #ffffff;
+        width: 90%;
+        margin-left: 40px;
+    }
+
+   
+    .section{
+        margin-top: 20px;
+    }
+
+    
 }

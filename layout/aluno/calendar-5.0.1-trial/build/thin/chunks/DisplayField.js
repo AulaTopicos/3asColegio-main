@@ -1,0 +1,10 @@
+/*!
+ *
+ * Bryntum Calendar 5.0.1 (TRIAL VERSION)
+ *
+ * Copyright(c) 2022 Bryntum AB
+ * https://bryntum.com/contact
+ * https://bryntum.com/license
+ *
+ */
+function U(){var P=['DisplayField','changeReadOnly','619292dctyLm','20albdqK','-input','344511UbCpKv','encodeHtml','changeEditable','2stUauF','3708859OeAdMX','displayfield','_$name','$name','configurable','6ZotHmU','1230732FmfDcW','display','type','value','b-display-field','5174608OkGChh','span','focusElement','initClass','template','3441395BnkZxa','22522080ifqnvy','inputElement'];U=function(){return P;};return U();}(function(A,y){function f(A,y){return c(y-0x315,A);}var w=A();while(!![]){try{var B=parseInt(f(0x4db,0x4d2))/0x1*(-parseInt(f(0x4c5,0x4cc))/0x2)+-parseInt(f(0x4c1,0x4cf))/0x3*(parseInt(f(0x4da,0x4cd))/0x4)+parseInt(f(0x4c7,0x4c7))/0x5*(-parseInt(f(0x4c4,0x4bc))/0x6)+parseInt(f(0x4df,0x4d3))/0x7+-parseInt(f(0x4cb,0x4c2))/0x8+parseInt(f(0x4b1,0x4bd))/0x9+parseInt(f(0x4d4,0x4c8))/0xa;if(B===y)break;else w['push'](w['shift']());}catch(l){w['push'](w['shift']());}}}(U,0x5f443));import{TextField,StringHelper}from'./Editor.js';class DisplayField extends TextField{static get[q(0x14e,0x155)](){return'DisplayField';}static get[q(0x153,0x15e)](){function M(A,y){return q(y-0x224,A);}return M(0x396,0x38c);}static get['alias'](){function E(A,y){return q(y- -0x21,A);}return E(0x129,0x131);}static get[q(0x14f,0x150)](){function p(A,y){return q(y- -0x13f,A);}return{'readOnly':!![],'editable':![],'cls':p(0x9,0x16),'template':null,'ariaElement':'displayElement'};}get[q(0x158,0x151)](){}[q(0x15f,0x16d)](){return!![];}[q(0x165,0x169)](){return![];}get[q(0x15d,0x162)](){function I(A,y){return q(y- -0x1cc,A);}return{'tag':I(-0x6a,-0x75),'id':this['id']+I(-0x60,-0x6a),'reference':'displayElement','html':this[I(-0x69,-0x72)]?this[I(-0x7e,-0x72)](this[I(-0x83,-0x78)]):StringHelper[I(-0x6a,-0x68)](this[I(-0x79,-0x78)])};}}DisplayField[q(0x159,0x156)](),DisplayField[q(0x14d,0x144)]=q(0x15e,0x166);function c(A,y){var w=U();return c=function(B,l){B=B-0x1a4;var f=w[B];return f;},c(A,y);}function q(A,y){return c(A- -0x57,y);}export{DisplayField};
