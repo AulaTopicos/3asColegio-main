@@ -22,19 +22,19 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark"  style="background-color: aqua;">
+    <header class="area-aluno">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="d-md-flex usuario text-white">
                 <div class="container-md text-white">
-                    <h1 class="navbar-brand text-white" href="#">Colegio 3AS</h1>
+                    <h1 class="navbar-brand text-white area-colegio" href="#"></h1>
                 </div>
-                    <h4>Victo Hugo Saruva De Aquino</h4>
-               <br><p class="text-white">Matricula:0202020</p>
+                    <h4 class="nome-aluno"></h4>
+               <br><p class="text-white area-matricula"></p>
             </div>   
         </nav>
     </header>
     <main>
-        <section>
+        <section class="models area-prova">
             <div style="margin-left: 20px;">
                 <a href="index.html" class="btn btn-secondary"><i class="fa fa-octagon-xmark"></i>Sair</a>
             </div>
@@ -63,31 +63,11 @@
                 </div>
               </div>
             </section>
-            <section class="card-2">
-                <div class="mt-5">
-                  <h3 style="margin-left: 40px;">12/2021</h3>
-                  <div class="card-provas">
-                      <div class="d-md-flex justify-content-between border-bottom">
-                          <div class="card-prova-data">
-                              <p class="text-dark">10/12/2021 - 08:00:00</p>
-                          </div>
-                          <div class="card-prova-presenca" >
-                            <p class="text-dark">Presença:  <strong class="text-success">Presente</strong> </p>
-                          </div>
-                      </div>
-                      <div class="card-prova-data">
-                          <p class="text-dark">Prova Português - 3º semestre</p>
-                          <p class="text-dark">01/04/2022 08:00 Prova Português</p>
-                          <p class="text-dark">Turma: 2A (2021/3)</p>
-                          <p class="text-dark">Turno: Manhã</p>
-                      </div>
-                      <a href="/prova-download/Projeto Escola (3).doc"  class="btn btn-info" download style="margin-left: 10px;">Baixar prova </a>
-                  </div>
-                </div>
-              </section>
-                
+ 
         </section>
     </main>
-    
+   
+    <script src="script/aluno.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>
