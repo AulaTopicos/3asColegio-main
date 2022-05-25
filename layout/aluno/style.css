@@ -3,13 +3,13 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
 }
-p {
+/*p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
     color: #999;
-}
+}*/
 a,
 a:hover,
 a:focus {
@@ -43,6 +43,16 @@ span {
 .logo {
     width: 70px;
 }
+.conteiner-aluno{
+    background-color: #343A40;
+    color: rgb(255, 255, 255);
+    height: 50px;
+}
+.conteiner-aluno h1{
+    font-size: 20px;
+}
+
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -208,18 +218,16 @@ select{
     font-size: 30px;
 }
 
-.card-provas{
-    background-color: #ffffff;
-    min-height: 300px;
-    width: 600px;
-    margin-left: 40px;
+
+.card-area-prova-realizada{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;   
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.card-prova-presenca p{
-    margin-right: 10px;
-}
-.card-prova-data{
-    margin-left: 10px;
-}
+
+
 /* ---------------------------------------------------
     eventos   
 ----------------------------------------------------- */

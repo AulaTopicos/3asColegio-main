@@ -22,21 +22,18 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark"  style="background-color: aqua;">
-            <div class="d-md-flex usuario text-white">
-                <div class="container-md text-white">
-                    <h1 class="navbar-brand text-white" href="#">Colegio 3AS</h1>
-                </div>
-                    <h4>Victo Hugo Saruva De Aquino</h4>
-               <p class="text-white">Matricula:0202020</p>
-               
+    <header class="area-aluno">
+        <nav class="nav-aluno">
+            <div class="d-flex justify-content-between align-items-center conteiner-aluno">
+                <div><h2 class="area-nome-colegio"></h2></div>
+                <div><h1 class="area-nome-aluno"></h1></div>
+                <div><p class="area-matricula"></p></div>
             </div>   
         </nav>
     </header>
     <main>
         <div style="margin-left: 20px;">
-            <a href="vidaAcademica.html" class="btn btn-secondary"><i class="fa fa-octagon-xmark"></i>Sair</a>
+            <a href="vidaAcademica.html" class="btn btn-secondary mt-5"><i class="fa fa-octagon-xmark"></i>Sair</a>
         </div>
         <section>
             <div class="provas d-md-flex justify-content-around">
@@ -51,5 +48,8 @@
         </section>
     </main>
     
+
+    <script src="script/aluno.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

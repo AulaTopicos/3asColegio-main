@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Menu</title>
+    <title>3AS</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -22,29 +22,32 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark"  style="background-color: aqua;">
-            <div class="d-md-flex usuario text-white">
-                <div class="container-md text-white">
-                    <h1 class="navbar-brand text-white" href="#">Colegio 3AS</h1>
-                </div>
-                    <h4>Victo Hugo Saruva De Aquino</h4>
-               <br><p class="text-white">Matricula:0202020</p>
+    <header class="area-aluno">
+        <nav class="nav-aluno">
+            <div class="d-flex justify-content-between align-items-center conteiner-aluno">
+                <div><h2 class="area-nome-colegio"></h2></div>
+                <div><h1 class="area-nome-aluno"></h1></div>
+                <div><p class="area-matricula"></p></div>
             </div>   
         </nav>
     </header>
     <main>
-        <section>
+        <section class="area-aluno">
             <div style="margin-left: 20px;">
-                <a href="index.html" class="btn btn-secondary"><i class="fa fa-octagon-xmark"></i>Sair</a>
+                <a href="index.html" class="btn btn-secondary mt-5"><i class="fa fa-octagon-xmark"></i>Sair</a>
             </div>
-            <div class="d-flex justify-content-md-center flex-column">
-                <h1 style="margin: auto;">Provas Online</h1>
-                <p style="margin: auto;">Não há provas disponíveis</p>
+            <div class="text-center">
+                <h2>Prova Online</h2>
             </div>
-                
+            <div class="text-center conteiner-prova">
+                <div class="area-realizar-prova"></div>
+            </div>
         </section>
     </main>
+
+
+    <script src="script/aluno.js"></script>
+    <script src="script/script.js"></script>
     
 </body>
 </html>
