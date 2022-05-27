@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    background: #F3F3F3;
 }
 /*p {
     font-family: 'Poppins', sans-serif;
@@ -53,9 +53,7 @@ span {
 }
 
 
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
+/* --------------------------------------------------- SIDEBAR STYLE----------------------------------------------------- */
 
 .wrapper {
     display: flex;
@@ -171,9 +169,7 @@ a.article:hover {
     color: #fff !important;
 }
 
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
+/* ---------------------------------------------------CONTENT STYLE---------------------------------------------------- */
 
 #content {
     width: 100%;
@@ -181,9 +177,7 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
-/* ---------------------------------------------------
-   section
------------------------------------------------------ */
+/* --------------------------------------------------- section----------------------------------------------------- */
 .section-content{
     position: absolute;
     width: calc(100% - 400px);
@@ -203,43 +197,42 @@ select{
     width: calc(100% - 20px);
     height: 30px;
 }
-/* ---------------------------------------------------
-    PROVA   
------------------------------------------------------ */
+/* --------------------------------------------------- PROVA ----------------------------------------------------- */
 .usuario{
     width: 100%;
 }
 .usuario h4{
     margin: auto;
 }
-.prova{
+.caixa-prova{
     border: 3px solid black;
     padding: 50px;
     font-size: 30px;
 }
-
-
-.card-area-prova-realizada{
-    display: flex;
-    justify-content: space-between;
+/* --------------------------------------------------- PROVA REALIZADA ----------------------------------------------------- */
+.area-prova-realizada{
     max-width: 500px;   
     margin-left: 20px;
     margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.prova-realizadas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-/* ---------------------------------------------------
-    eventos   
------------------------------------------------------ */
+/* ---------------------------------------------------eventos ----------------------------------------------------- */
 
 .aventos-img img{
     max-width:250px;
     height: 100%;
 }
 
-/* ---------------------------------------------------
-    curso   
------------------------------------------------------ */
+/* ---------------------------------------------------curso----------------------------------------------------- */
 .card-curso{
     margin: auto;
     margin-top: 10px;
