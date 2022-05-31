@@ -215,14 +215,18 @@ select{
     margin-left: 20px;
     margin-top: 20px;
     background-color: white;
-    padding: 20px;
+    padding: 5px;
 }
 .prova-realizadas{
     display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    
 }
+
+
+
 
 
 /* ---------------------------------------------------eventos ----------------------------------------------------- */

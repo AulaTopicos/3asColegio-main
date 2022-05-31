@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- Our Custom CSS -->
-  <link rel="stylesheet" href="/layout/sidebar/sidebar/style.css">
-  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="../assets/style-aluno.css">
 
   <!-- Font Awesome JS -->
   <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
@@ -499,33 +499,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
-
-<script src="script/aluno.js"></script>
-<script src="script/header.js"></script>
-<script src="script/content.js"></script>
-
-<script type="text/javascript">
-  $(document).ready(function () {
-    $('#sidebarCollapse').on('click', function () {
-      $('#sidebar').toggleClass('active');
-    });
-  });
-
-  $('.select-estados').change(function (event) {
-    var semestre = event.currentTarget.value;
-    if (semestre == 2) {
-      document.getElementById('faltas').innerHTML = "Total: 0 falta(s)"
-      document.getElementById('atencao').style.display = 'none'
-      document.getElementById('faltas').style.backgroundColor = 'green';
-    } else {
-      document.getElementById('faltas').innerHTML = "Total: 4 falta(s)"
-      document.getElementById('atencao').style.display = 'inline-flex'
-      document.getElementById('faltas').style.backgroundColor = 'red';
-    }
-  });
+<!-- script da pagina -->
+<script src="../assets/script/script.js"></script>
+<!-- script globar -->
+<script src="../../../script/script.js"></script>
 
 
-
-</script>
 
 </html>

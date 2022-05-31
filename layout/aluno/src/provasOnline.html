@@ -11,56 +11,45 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="/layout/sidebar/sidebar/style.css">
-    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="../assets/style-aluno.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/fafc49575b.js" crossorigin="anonymous"></script>
 
-
-   
 </head>
 
 <body>
-    <header class="area-aluno">
-        <nav class="nav-aluno">
+    <header class="header-area-aluno">
+        <nav class="header-nav-aluno">
             <div class="d-flex justify-content-around align-items-center conteiner-aluno">
-                <div><h2 class="area-nome-colegio"></h2></div>
-                <div><h1 class="area-nome-aluno"></h1></div>
-                <div><p class="area-matricula"></p></div>
+                <div><p class="header-area-nome-colegio"></p></div>
+                <div><h1 class="header-area-nome-aluno"></h1></div>
+                <div><p class="header-area-matricula"></p></div>
             </div>   
         </nav>
     </header>
     <main>
+        <div style="margin-left: 20px;">
+            <a href="vidaAcademica.html" class="btn btn-secondary mt-5"><i class="fa fa-octagon-xmark"></i>Sair</a>
+        </div>
         <section>
-            <div style="margin-left: 20px;">
-                <a href="index.html" class="btn btn-secondary mt-5"><i class="fa fa-octagon-xmark"></i>Sair</a>
-            </div>
-            <div class="d-flex justify-content-md-center flex-column">
-                <h1 style="margin: auto;">Provas Realizadas</h1>
-            </div>
-        </section>
-        <section>
-            <div class="area-prova-realizada ">
-                <div class="prova-realizadas border-bottom">
-                    <div><p id="area-data"></p></div>
-                    <div><p id="area-presenca"></p></div>
+
+            <div class="area-aluno text-center mt-5">
+                <div>
+                    <h2>Provas disponiveis</h2>
                 </div>
-                <div class="mt-3">
-                    <p id="area-ciclo-prova"></p>
-                    <p id="area-data-prova"></p>
-                    <p id="area-materia"></p>
-                    <p id="area-turma"></p>
+                <div class="area-prova-disponivel">
+                    <p class="area-realizar-prova"></p>
                 </div>
             </div>
         </section>
     </main>
-   
-    <script src="script/aluno.js"></script>
-    <script src="script/header.js"></script>
-    <script src="script/content.js"></script>
-   
+
+    <script src="../../../aluno-json/aluno.js"></script>
+    <script src="../../../aluno-json/header.js"></script>
+    <script src="../../../aluno-json/contect.js"></script>
 </body>
 </html>
